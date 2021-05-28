@@ -57,9 +57,9 @@ wsl --set-default-version 2
 ```bash
 echo "export LIBGL_ALWAYS_INDIRECT=0" >> ~/.bashrc 
 
-echo "export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0" >> ~/.bashrc 
+echo "export DISPLAY=\$(awk '/nameserver / {print \$2; exit}' /etc/resolv.conf 2>/dev/null):0" >> ~/.bashrc 
 
-echo "export HOST_ADDR=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null) " >> ~/.bashrc 
+echo "export HOST_ADDR=\$(awk '/nameserver / {print \$2; exit}' /etc/resolv.conf 2>/dev/null) " >> ~/.bashrc 
 ```
 
 ## Работа с реальными устройствами (USB) из ОС Ubuntu
