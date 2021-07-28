@@ -1,9 +1,9 @@
-# WSL2
+# Windows subsystem for linux (WSL2)
 
-[<img src="https://github.com/Promobot-education/WSL2/blob/main/docs/res/WSL2.png" width="400"/>]()
+![img](/WSL2.png)
 
 Windows Subsystem for Linux (WSL) — слой совместимости для запуска Linux-приложений в ОС Windows 10. 
 
-Позволяет полноценно работать с ROS без необходимости установки дистрибутива Ubuntu
+Позволяет полноценно работать с ROS без необходимости установки дистрибутива Ubuntu.
 
-[Установка и настройка WSL2 на Windows](https://github.com/Promobot-education/WSL2/blob/main/docs/start.md)
+Всю информацию по использованию WSL2 можно найти на https://promobot-education.github.io/WSL2/
